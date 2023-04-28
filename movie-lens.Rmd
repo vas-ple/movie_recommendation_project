@@ -53,7 +53,7 @@ options(digits = 7)
 
 Recommendation systems are popular applications of machine learning utilised extensively by digital companies [[1](https://hbr.org/2017/08/great-digital-companies-build-great-recommendation-engines)]. Netflix is an example of a company which uses these systems to understand their customers better and to target them with media content more effectively [[2](https://hbr.org/2018/06/how-marketers-can-get-more-value-from-their-recommendation-engines)]. In 2009, Netflix awarded a $1M prize to the team of data scientists who had successfully met the challenge of improving their movie recommendation algorithm by 10% [[3](https://bits.blogs.nytimes.com/2009/09/21/netflix-awards-1-million-prize-and-starts-a-new-contest)].
 
-This analysis is part of HarvardX's Capstone Project for the Data Science Professional Certificate. The objective was to develop a recommendation system using the MovieLens dataset which consists of 10 million movie ratings. The goals  were for the final algorithm to:
+ The objective was to develop a recommendation system using the MovieLens dataset which consists of 10 million movie ratings. The goals  were for the final algorithm to:
 
 a) Improve predictions by reducing the the root mean square error (RMSE) by 10% or more over the naive algorithm (Just the Average) and
 b) Predict ratings with a root mean square error (RMSE) of less 0.8712 (Winning Score of the Netflix challenge) versus the actual ratings included in the validation set.
